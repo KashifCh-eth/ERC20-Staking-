@@ -1,0 +1,4 @@
+cls
+staking.position(1);
+ const Staking = await ethers.getContractFactory("Staking", owner);
+[owner] = await ethers.getSigners();
